@@ -1,0 +1,27 @@
+@import url(./__title/intro__title.css);
+@import url(./__content/intro__content.css);
+@import url(./__numbers/intro__numbers.css);
+@import url(./__bold/intro__bold.css);
+
+
+.intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    max-width: 984px;
+    margin: auto;
+    padding: 80px 0 102px;
+}
+
+@media (max-width: 1279px) {
+    .intro { 
+        max-width: 928px;
+        }
+    }

@@ -1,0 +1,12 @@
+.video-description {
+    grid-row: 1;
+	grid-column: 1;
+	color: #fff;
+	padding: 30px 30px 30px;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	z-index: 2;
+}

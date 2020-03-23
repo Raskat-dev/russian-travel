@@ -1,0 +1,27 @@
+@import url(./__title/card__title.css);
+@import url(./__website/card__website.css);
+@import url(./__image/card__image.css);
+
+.card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto 60px auto;
+        grid-template-areas: 
+                "card__title card__website"
+                "card__image card__description";
+    grid-gap: 60px 40px;
+    -ms-grid-columns: 460px 40px 484px;
+    grid-template-columns: 460px 484px;
+    padding-bottom: 72px;
+}
+
+.card:last-of-type {
+    padding-bottom: 0;
+}
+
+@media (max-width: 1279px) {
+    .card { 
+        grid-template-columns: 440px 456px;
+        grid-gap: 40px 32px;
+    }
+}

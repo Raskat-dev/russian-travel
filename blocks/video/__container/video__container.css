@@ -1,0 +1,27 @@
+.video__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 18px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+    -ms-grid-rows: 100%;
+    grid-template-rows: 323px;
+}
+
+.video__container > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.video__container > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+@media (max-width: 1279px) {
+    .video__container {
+        grid-gap: 16px;
+        grid-template-rows: 288px;
+}
+    }
+ }

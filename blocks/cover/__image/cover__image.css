@@ -1,0 +1,15 @@
+.cover__image {
+	-ms-grid-column: 1;
+	grid-column: 1;
+	-ms-grid-row: 1;
+	grid-row: 1;
+    width: 100%;
+    z-index: 1;
+}
+
+@media (max-width: 1279px) {
+    .cover__image {
+        width: 1045px;
+        height: 562px;
+    }
+}

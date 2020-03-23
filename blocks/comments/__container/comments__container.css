@@ -1,0 +1,7 @@
+.comments__container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 19px;
+    -ms-grid-columns: 1fr 19px 1fr 19px 1fr;
+    grid-template-columns: repeat(3, 1fr)
+}

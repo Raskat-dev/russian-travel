@@ -1,0 +1,12 @@
+.content__title_milk {
+    color: #fffdfd;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 1279px) {
+    .content__title_milk {
+        max-width: 520px;
+    }
+}

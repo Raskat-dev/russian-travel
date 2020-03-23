@@ -1,0 +1,9 @@
+.screenshot {
+    width: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+       grid-row: 1;
+       grid-column: 1;
+    z-index: 1;
+    height: 100%;
+}

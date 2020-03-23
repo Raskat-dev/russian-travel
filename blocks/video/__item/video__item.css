@@ -1,0 +1,12 @@
+.video__item {
+	background-color: #000;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    border-radius: 1%;
+    text-decoration: none;
+}
+
+.video__item:hover .screenshot {
+    animation: dark 1s ease-out forwards;
+}

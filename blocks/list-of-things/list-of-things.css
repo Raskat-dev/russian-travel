@@ -1,0 +1,8 @@
+.list-of-things {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
