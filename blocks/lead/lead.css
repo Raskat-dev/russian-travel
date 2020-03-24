@@ -14,18 +14,24 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 984px;
+    max-width: 984px;
     margin: 0 auto;
 }
 
 @media (max-width: 1279px) {
     .lead {
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media (max-width: 1023px) {
     .lead {
-        width: 768px;
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead {
+        max-width: 375px;
     }
 }

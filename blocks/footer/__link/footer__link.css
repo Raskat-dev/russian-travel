@@ -7,3 +7,18 @@
     line-height: 41px;
     margin-right: 18px;
 }
+
+@media (max-width: 1023px) {
+    .footer__link  {
+        font-size: 16px;
+		line-height: 27px;
+    }
+}
+
+@media (max-width: 727px) {
+    .footer__link  {
+        font-size: 24px;
+        line-height: 41px;
+        margin: 0;
+    }
+}

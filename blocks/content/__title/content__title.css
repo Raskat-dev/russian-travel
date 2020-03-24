@@ -8,3 +8,21 @@
     margin: 0;
     padding: 102px 0 48px;
 }
+
+@media (max-width: 1023px) {
+	.content__title {
+		font-size: 42px;
+		line-height: 46px;
+		width: 60%;
+		padding-bottom: 24px;
+	}
+}
+
+@media (max-width: 1023px) {
+    .content__title {
+        padding: 64px 0 16px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 100%;
+    }
+}

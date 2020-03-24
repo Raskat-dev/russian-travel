@@ -22,6 +22,25 @@
     .video__container {
         grid-gap: 16px;
         grid-template-rows: 288px;
-}
     }
- }
+}
+
+@media (max-width: 1023px) {
+    .video__container {
+        grid-template-rows: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .video__container {
+        grid-template-columns: 100%;
+        grid-gap: 8px;
+        grid-template-rows: 200px 200px;
+    }
+}
+
+@media (max-width: 374px) {
+    .video__container {
+        grid-template-rows: 192px 192px;
+    }
+}

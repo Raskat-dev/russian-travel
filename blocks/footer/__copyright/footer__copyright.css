@@ -3,4 +3,11 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+    margin: 0;
+}
+
+@media (max-width: 727px) {
+    .footer__copyright  {
+        padding-top: 16px;
+    }
 }

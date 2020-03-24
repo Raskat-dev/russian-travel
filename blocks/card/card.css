@@ -1,6 +1,7 @@
 @import url(./__title/card__title.css);
 @import url(./__website/card__website.css);
 @import url(./__image/card__image.css);
+@import url(./__description/card__description.css);
 
 .card {
     display: -ms-grid;
@@ -13,6 +14,7 @@
     -ms-grid-columns: 460px 40px 484px;
     grid-template-columns: 460px 484px;
     padding-bottom: 72px;
+    margin: auto;
 }
 
 .card:last-of-type {
@@ -23,5 +25,34 @@
     .card { 
         grid-template-columns: 440px 456px;
         grid-gap: 40px 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .card { 
+        grid-template-columns: 340px 352px;
+        grid-gap: 40px 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card { 
+        grid-template-columns: 375px;
+        grid-gap: 0;
+        grid-template-areas: 
+            "card__title"
+            "card__image" 
+            "card__description";
+    }
+}
+
+@media (max-width: 767px) {
+    .card { 
+        grid-template-columns: 320px;
+        grid-gap: 0;
+        grid-template-areas: 
+            "card__title"
+            "card__image" 
+            "card__description";
     }
 }

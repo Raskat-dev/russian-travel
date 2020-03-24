@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .card__description {
+    	max-width: 343px;
+    	margin: auto;
+    }
+}
+
+@media (max-width: 374px) {
+    .card__description {
+        max-width: 288px;
+    }
+}

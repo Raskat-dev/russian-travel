@@ -5,3 +5,19 @@
     -ms-grid-columns: 1fr 19px 1fr 19px 1fr;
     grid-template-columns: repeat(3, 1fr)
 }
+
+@media (max-width: 1023px) {
+    .comments__container {
+        grid-template-columns: 382px;
+        grid-gap: 48px;
+       /* grid-template-areas:
+        "photo"
+        "author"
+        "quote";*/
+    }
+}
+
+@media (max-width: 767px) {
+    .comments__container {
+        grid-template-columns: 100%;
+        grid-gap: 48px;

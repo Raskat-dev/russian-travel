@@ -21,3 +21,23 @@
         max-width: 928px;
     }
 }
+
+@media (max-width: 1023px) {
+    .comments {
+        max-width: 660px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comments {
+        max-width: 343px;
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width: 374px) {
+    .comments {
+        max-width: 288px;
+        padding-bottom: 64px;
+    }
+}

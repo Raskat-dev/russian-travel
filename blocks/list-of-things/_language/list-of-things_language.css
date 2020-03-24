@@ -1,0 +1,8 @@
+@media (max-width: 1023px) {
+    .list-of-things_language {
+        height: 100%;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 10px;
+    }
+}

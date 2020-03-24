@@ -13,3 +13,9 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
 }
+
+@media (max-width: 767px) {
+    .card__website {
+        display: none;
+    }
+}

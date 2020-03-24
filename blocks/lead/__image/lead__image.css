@@ -20,3 +20,10 @@
         padding-bottom: 16px;
     }
 }
+
+@media (max-width: 767px) {
+    .lead__image {
+        height: 211px;
+        padding-bottom: 8px;
+    }
+}
