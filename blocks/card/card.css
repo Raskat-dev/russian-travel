@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url(./__title/card__title.css);
 @import url(./__website/card__website.css);
 @import url(./__image/card__image.css);
@@ -6,8 +8,8 @@
 .card {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: auto 60px auto;
-        grid-template-areas: 
+        -ms-grid-rows: auto 60px auto;
+            grid-template-areas: 
                 "card__title card__website"
                 "card__image card__description";
     grid-gap: 60px 40px;
@@ -23,6 +25,7 @@
 
 @media (max-width: 1279px) {
     .card { 
+        -ms-grid-columns: 440px 32px 456px; 
         grid-template-columns: 440px 456px;
         grid-gap: 40px 32px;
     }
@@ -30,6 +33,7 @@
 
 @media (max-width: 1023px) {
     .card { 
+        -ms-grid-columns: 340px 28px 352px; 
         grid-template-columns: 340px 352px;
         grid-gap: 40px 28px;
     }
@@ -37,9 +41,11 @@
 
 @media (max-width: 767px) {
     .card { 
+        -ms-grid-columns: 375px; 
         grid-template-columns: 375px;
         grid-gap: 0;
-        grid-template-areas: 
+        -ms-grid-rows: auto 0 auto 0 auto;
+            grid-template-areas: 
             "card__title"
             "card__image" 
             "card__description";
@@ -48,9 +54,11 @@
 
 @media (max-width: 767px) {
     .card { 
+        -ms-grid-columns: 320px; 
         grid-template-columns: 320px;
         grid-gap: 0;
-        grid-template-areas: 
+        -ms-grid-rows: auto 0 auto 0 auto;
+            grid-template-areas: 
             "card__title"
             "card__image" 
             "card__description";

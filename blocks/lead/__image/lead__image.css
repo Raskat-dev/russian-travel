@@ -6,12 +6,13 @@
 }
 
 @media (max-width: 1279px) {
-	.lead__image {
-		height: 554px;
-		width: 100%;
-		padding-bottom: 16px;
-		object-fit: fill;
-	}
+    .lead__image {
+        height: 554px;
+        width: 100%;
+        padding-bottom: 16px;
+        -o-object-fit: fill;
+           object-fit: fill;
+    }
 }
 
 @media (max-width: 1023px) {

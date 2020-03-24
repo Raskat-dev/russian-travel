@@ -24,7 +24,8 @@
 }
 
 .cover:hover > .cover__image {
-    animation: dark 1s ease-out forwards;
+    -webkit-animation: dark 1s ease-out forwards;
+            animation: dark 1s ease-out forwards;
 }
 
 @media (max-width: 1279px) {

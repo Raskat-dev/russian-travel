@@ -10,12 +10,12 @@
 }
 
 @media (max-width: 1023px) {
-	.content__title {
-		font-size: 42px;
-		line-height: 46px;
-		width: 60%;
-		padding-bottom: 24px;
-	}
+    .content__title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 60%;
+        padding-bottom: 24px;
+    }
 }
 
 @media (max-width: 1023px) {

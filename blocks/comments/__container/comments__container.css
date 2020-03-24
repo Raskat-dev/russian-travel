@@ -8,16 +8,16 @@
 
 @media (max-width: 1023px) {
     .comments__container {
+        -ms-grid-columns: 382px;
         grid-template-columns: 382px;
         grid-gap: 48px;
-       /* grid-template-areas:
-        "photo"
-        "author"
-        "quote";*/
     }
 }
 
 @media (max-width: 767px) {
     .comments__container {
+        -ms-grid-columns: 100%;
         grid-template-columns: 100%;
         grid-gap: 48px;
+    }
+}
