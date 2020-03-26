@@ -1,9 +1,10 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 @import url(./__title/card__title.css);
 @import url(./__website/card__website.css);
 @import url(./__image/card__image.css);
 @import url(./__description/card__description.css);
+@import url(./__link-title/card__link-title.css);
+@import url(./__website-link/card__website-link.css);
+@import url(./__description-text/card__description-text.css);
 
 .card {
     display: -ms-grid;
@@ -52,7 +53,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 374px) {
     .card { 
         -ms-grid-columns: 320px; 
         grid-template-columns: 320px;

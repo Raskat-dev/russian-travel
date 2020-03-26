@@ -3,4 +3,5 @@
 	/*Центрируем контент*/
 	font-family: 'Inter', Arial, sans-serif;
 	color: #fff;
+	min-width: 320px;
 }

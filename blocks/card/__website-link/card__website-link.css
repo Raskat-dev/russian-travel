@@ -1,0 +1,11 @@
+.card__website-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.card__website-link:hover {
+    opacity: 0.35;
+    transition: 0.5s linear;
+}

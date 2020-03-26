@@ -1,0 +1,25 @@
+.list-of-things__language-link {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 23px;
+    margin-left: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+
+}
+
+.list-of-things__language-link:hover {
+    opacity: 0.35;
+    transition: 0.5s linear;
+}
+
+
+
+@media (max-width: 767px) {
+    .list-of-things__language-link {
+        font-size: 18px;
+    	line-height: 17px;
+    	margin-left: 16px;
+    }
+}

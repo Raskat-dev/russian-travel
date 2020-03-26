@@ -7,6 +7,7 @@
     width: 382px;
     margin: 0 auto;
     padding: 134px 0 48px;
+    color: #fff;
 }
 
 @media (max-width: 1279px) {
@@ -21,7 +22,7 @@
     }
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .cover__subtitle {
         padding: 7px 0 24px;
         font-size: 14px;

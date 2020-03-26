@@ -1,0 +1,10 @@
+@import url(./__description/videocard__description.css);
+@import url(./__director/videocard__director.css);
+@import url(./__time/videocard__time.css);
+@import url(./__title/videocard__title.css);
+
+.videocard {
+	background-color: #000;
+    border-radius: 1%;
+    text-decoration: none;
+}

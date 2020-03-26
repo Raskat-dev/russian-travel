@@ -1,5 +1,6 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__distance/footer__distance.css);
 
 .footer {
     max-width: 1184px;
@@ -28,7 +29,7 @@
     }
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .footer {
         max-width: 282px;
         margin-left:16px;
