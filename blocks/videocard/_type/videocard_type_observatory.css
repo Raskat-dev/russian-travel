@@ -1,11 +1,11 @@
-.videocard_observatory {
+.videocard_type_observatory {
     background-image: url(../../../images/observatory.jpg);
     background-size: cover;
     position: relative;
     z-index: 0;
 }
 
-.videocard_observatory::before {
+.videocard_type_observatory::before {
   content: '';
   height: 100%;
   width: 100%;
@@ -16,7 +16,7 @@
   z-index: -1;
 }
 
-.videocard_observatory:hover::before {
+.videocard_type_observatory:hover::before {
   opacity: 0.8;
   transition: 0.5s ease-out;
 }

@@ -1,11 +1,11 @@
-.videocard_kamchatka {
+.videocard_type_kamchatka {
     background-image: url(../../../images/kamchatka.jpg);
     background-size: cover;
     position: relative;
     z-index: 0;
 }
 
-.videocard_kamchatka::before {
+.videocard_type_kamchatka::before {
   content: '';
   height: 100%;
   width: 100%;
@@ -16,7 +16,7 @@
   z-index: -1;
 }
 
-.videocard_kamchatka:hover::before {
+.videocard_type_kamchatka:hover::before {
   opacity: 0.8;
   transition: 0.5s ease-out;
 }
