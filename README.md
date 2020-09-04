@@ -12,7 +12,4 @@
 1. Выполнить команду git clone https://github.com/Raskat-dev/russian-travel.git или скачать репозиторий архивом;
 2. Открыть index.html в папке с проектом.
 
-### Контакты:
-* e-mail: ka-rostislav@yandex.ru
-* tlgrm: @ColdJanuary
 
